@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+.events-outer-div {
+    /* background-color: #000080; */
+    padding-top: 11vw;
+    width: 100%;
+    text-align: center;
+    font-family: 'Slabo 27px';
+    font-weight: bold;
+}
+
+.events-heading {
+    padding-top: 3vw;
+    font-size: 3em;
+    color: #000080;
+    font-weight: bolder;
+}
+
+.events-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-image-scroll,
+.events-image-description {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-image-scroll {
+    padding-right: 10px; /* Add some space between carousel and description */
+}
+
+.events-image-description {
+    padding-left: 10px; /* Add some space between description and carousel */
+    padding-right: 7vw;
+}
+
+.events-image-scroll .carousel-container {
+    max-width: 50%; /* Limit carousel to 50% of the width */
+}
+
+.events-image-scroll .carousel-container img {
+    max-width: 100%;
+    height: auto;
+}

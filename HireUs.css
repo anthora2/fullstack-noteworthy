@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+.hire-us-outer-div {
+	/* background-color: #000080; */
+    /* background-color: #000080; */
+    /* padding-top: 11vw; */
+    width: 100%;
+    text-align: center;
+    font-family: 'Slabo 27px';
+    font-weight: bold;
+		margin-top: 4vw;
+		/* background-image: url('./images/noteworthy-group-contact.jpg'); */
+		/* background-color: antiquewhite; */
+		color: #000080;
+		font-weight: bold;
+	
+	}
+
+
+.hire-us-heading {
+    padding-top: 3vw;
+    font-size: 3em;
+    color: #000080;
+    font-weight: bolder;
+}
+
+/* .hire-us-body {
+  display: flex; 
+	
+} */
+
+.hire-us-right, .hire-us-left {
+  flex: 1; 
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+
+.hire-us-left {
+	display: block;
+	padding-left: 4vw;
+	justify-content: center;
+	/* padding-top: 5vw; */
+}
+
+.hire-us-right {
+	padding-top: 5vw;
+	/* padding-bottom: 5vw; */
+}
+
+.hire-us-body {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.hire-us-left {
+  padding: 0 4vw; /* Adjust padding */
+}
+
+.hire-us-left h1 {
+	font-weight: bolder;
+  /* font-size: 2.5rem; Adjust font size */
+  margin-bottom: 1rem; /* Add some space below heading */
+}
+
+.hire-us-left h2 {
+  font-size: 1.2rem; /* Adjust font size */
+  margin-bottom: 1rem; /* Add some space below subheading */
+}
+
+.hire-us-left ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.hire-us-left li {
+  margin-bottom: 0.5rem; /* Add space between list items */
+  font-size: 1rem; /* Adjust font size */
+}
+
+/* Example styling for list items */
+.hire-us-left li:before {
+  content: "•"; /* Add custom bullet point */
+  color: #000080; /* Match the submit button color */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+.hire-us-description {
+	padding-top: 10vw;;
+	color: #000080;
+	font-weight: bolder;
+	font-size: x-large;
+	width: 60%; 
+  height: 200px; 
+  overflow: hidden; 
+	height: 100%;
+}
+
